@@ -14,11 +14,11 @@ Using the information from:
 
 Error-State Extended Kalman Filter (ES-EKF) for State Estimation using IMU, GNSS & LIDAR sensors
 
-    · Accelerometer and gyroscope readings come from the IMU, integrating IMU readings leads to dead-reckoning positioning systems, which drift with time.
+   · Accelerometer and gyroscope readings come from the IMU, integrating IMU readings leads to dead-reckoning positioning systems, which drift with time.
 
-    · To avoid drift we fuse this information with absolute position readings such as GPS or vision/LIDAR.
+   · To avoid drift we fuse this information with absolute position readings such as GPS or vision/LIDAR.
 
-    · In this project, IMU biases are not considered and quaternion is used to represent the orientation in space
+   · In this project, IMU biases are not considered and quaternion is used to represent the orientation in space
 
 ES-EKF is one of the tools we may use for this purpose within the KF paradigm. It allows overcoming possible parameter singularities and gimbal lock issues.
 
