@@ -20,3 +20,5 @@ Error-State Extended Kalman Filter (ES-EKF) for State Estimation using IMU, GNSS
 · In this project, IMU biases are not considered and quaternion is used to represent the orientation in space
 
 ES-EKF is one of the tools we may use for this purpose within the KF paradigm. It allows overcoming possible parameter singularities and gimbal lock issues.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ii5cZERYFuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
